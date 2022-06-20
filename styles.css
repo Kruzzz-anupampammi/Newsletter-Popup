@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    height: auto;
+    width: 100%;
+    background-image: url(./Assets/Background.png);
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 0 auto;
+    width: 34%;
+    height: 70%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-top {
+    width: 100%;
+    height: 30%;
+    background-image: url(./Assets/Pattern.png);
+    background-color: #2355F2;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#top-head {
+    color: white;
+    text-align: center;
+    padding: 15%;
+}
+
+#head-para {
+    text-align: center;
+    color: gray;
+}
+
+.email-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+#form {
+    padding-left: 2%;
+}
+
+ #form-text {
+   height: 40px;
+   width: 130%;
+   padding-left: 10%;
+   background-color: #f5f7fa;
+   border-radius: 5px;
+   border: 1px solid var(--silver-chalice);
+   color: var(--silver-chalice);
+} 
+
+#sub-btn {
+    height: 40px;
+    width: 35%;
+    background-color: #2355F2;
+}
+
+#bottom-txt {
+    color: gray;
+    font-size: 12px;
+    padding-left: 5%;
+}
+
+.creator {
+    display: flex;
+    justify-content: center;
+}
+
+#user {
+    /* padding-bottom: 15px; */
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+.user_details {
+   position: relative;
+   padding-bottom: 20px;
+   padding-left: 10px;
+}
+
+#details_para {
+    color: gray;
+}
+
+#last-para{
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1200px) {
+    .card {
+        width: 50%;
+        height: 70%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .card {
+        width: 50%;
+        height: 90%;
+    }
+}
+
+@media (max-width: 975px) {
+    .card {
+        width: 70%;
+        height: 65%;
+    }
+}
+
+@media (max-width: 850px) {
+    .card {
+        width: 70%;
+        height: 65%;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        height: 70%;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        background-repeat: repeat-y;
+    }
+    .card {
+        width: 130%;
+        height: 90%;
+    }
+}
